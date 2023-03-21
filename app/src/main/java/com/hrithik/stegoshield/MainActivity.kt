@@ -34,10 +34,10 @@ fun MainContent() {
                 Home(navController)
             }
             composable("encrypt") {
-                Encrypt(navController)
+                Encrypt()
             }
             composable("decrypt") {
-                Decrypt(navController)
+                Decrypt()
             }
         }
     }
